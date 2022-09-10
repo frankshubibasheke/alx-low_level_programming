@@ -32,4 +32,4 @@ int main(void)
 
 	return (0);
 }
-combination in business 
+
