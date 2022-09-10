@@ -1,34 +1,42 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of three different digits,
- *        in ascending order, separated by a comma followed by a space.
- *
- * Return: Always 0.
+ *main - print a num pair from 00-99 but no repeats (00 01, 00 02, 00 03,...)
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int digit1, digit2, digit3;
+	int tens;
+	int ones;
+	int t;
+	int o;
 
-	for (digit1 = 0; digit1 < 8; digit1++)
+	for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
 	{
-		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+		 	for (t = tens; t <= '9'; t++) /*print second of pair*/
 			{
-				putchar((digit1 % 10) + '0');
-				putchar((digit2 % 10) + '0');
-				putchar((digit3 % 10) + '0');
-
-				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				for (o = ones + 1; o <= '9'; o++)
+				{
+					putchar(tens);
+					putchar(ones);
+					putchar(' ');
+					putchar(t);
+					putchar(o);
+ 
+					if (!((tens == '9' && ones == '8') &&
+					      (t == '9' && o == '9')))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+				o = '0';
 			}
 		}
 	}
-
 	putchar('\n');
 
 	return (0);
