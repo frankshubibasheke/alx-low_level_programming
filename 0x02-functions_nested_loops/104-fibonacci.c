@@ -42,4 +42,4 @@ int main(void)
 	return (0);
 }
 
-My teacher gave me an A+
+
