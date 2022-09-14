@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * _isalpha - find check if character is alpha
+ * _isalpha - checks for alphabetic character
  * @c: the character to be checked
- * Return: 1 if c is a letter else 0
+ * Return: return 1 if c is letter, lowercase or uppercase. otherwise, return 0
  */
-
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	if (c >= 97 && c <= 122)
+		return (1);
+	else if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
-Footer
-© 2022 GitHub, Inc.
