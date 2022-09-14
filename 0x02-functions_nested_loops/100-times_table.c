@@ -45,3 +45,4 @@ void print_times_table(int n)
 		}
 	}
 }
+The World looks like a multiplication-table
