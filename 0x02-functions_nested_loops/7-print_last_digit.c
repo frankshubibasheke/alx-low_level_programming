@@ -21,4 +21,4 @@ int print_last_digit(int n)
 
 	return (a);
 }
-3 colors, 10 digits, and 7 notes
+
