@@ -28,3 +28,4 @@ void more_numbers(void)
 		i++;
 	}
 }
+Numbers constitute the only universal language
