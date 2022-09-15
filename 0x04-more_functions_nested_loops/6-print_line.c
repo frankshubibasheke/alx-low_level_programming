@@ -20,4 +20,4 @@ void print_line(int n)
 	}
 	_putchar('\n');
 }
-The shortest distance between two points is a straight line
+
