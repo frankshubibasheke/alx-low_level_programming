@@ -22,4 +22,4 @@ int main(void)
 
 	return (0);
 }
-Like, comment, subscribe
+
