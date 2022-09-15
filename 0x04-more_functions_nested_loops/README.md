@@ -10,4 +10,4 @@
 9-fizz_buzz.c - The “Fizz-Buzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag.
 10-print_triangle.c prints a triangle, followed by a new line.
 100-prime_factor - The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
-101-print_number.c prints an integer.
+101-print_number.c prints an integer..
