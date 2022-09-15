@@ -14,4 +14,4 @@
 101-natural.c computes and prints the sum of all the multiplies of 3 or 5 below 1024
 102-fibonacci.c prints the first 50 Fibonacci numbers, starting with 1 and 2
 103-fibonacci.c finds and prints the sum of the even-valued terms
-104-fibonacci.c finds and prints the first 98 Fibonacci numbers
+104-fibonacci.c finds and prints the first 98 Fibonacci numbers.
