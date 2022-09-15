@@ -30,3 +30,4 @@ int main(void)
 	factor_prime(612852475143);
 	return (0);
 }
+distinguishing prime numbers
