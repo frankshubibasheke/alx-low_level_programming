@@ -18,7 +18,3 @@ void print_array(int *a, int n)
 	}
 	printf("\n");
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
