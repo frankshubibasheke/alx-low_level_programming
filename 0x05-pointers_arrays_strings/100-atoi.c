@@ -33,4 +33,4 @@ int _atoi(char *s)
 	}
 	return (j * k);
 }
-100-atoi.c
+
