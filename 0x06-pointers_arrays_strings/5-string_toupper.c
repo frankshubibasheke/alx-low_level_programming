@@ -19,8 +19,3 @@ char *string_toupper(char *x)
 	}
 	return (x);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Priv
