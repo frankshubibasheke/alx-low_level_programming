@@ -29,6 +29,3 @@ void print_buffer(char *b, int size)
 		putchar('\n');
 	}
 }
-
-Footer
-© 2022 GitHub, Inc.
