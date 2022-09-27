@@ -38,6 +38,3 @@ char *_strstr(char *haystack, char *needle)
 
 	return (NULL);
 }
-
-Footer
-© 2022 GitHub, Inc.
