@@ -1,18 +1,24 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
-* _memset -> this is memory set function
-* @s: string
-* @b: character
-* @n: integer
-* Return: a string
-*/
+ * _memset - Entry point
+ * @s: String pointer
+ * @b: Replacement byte
+ * @n: Number of replacements
+ *
+ * Description: Add question here
+ * Return: 0 (success) and 1 (failure) to execute
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a;
+	unsigned int i;
 
-	for (a = 0; a < n; a++)
-		s[a] = b;
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
 
-	return (s);
+	return (0);
 }
