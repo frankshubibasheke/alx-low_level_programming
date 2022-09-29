@@ -12,5 +12,3 @@ void _print_rev_recursion(char *s)
 		_putchar(*s); /*print s*/
 	}
 }
-Footer
-© 2022 GitHub, Inc.
