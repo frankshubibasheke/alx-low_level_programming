@@ -48,5 +48,3 @@ int is_prime_number(int num)
 
 	return (evaluate_num(num, iterator));
 }
-Footer
-© 2022 GitHub, Inc.
