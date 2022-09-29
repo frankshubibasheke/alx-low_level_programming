@@ -29,5 +29,3 @@ int _sqrt_recursion(int n)
 		return (0);
 	return (helper(n, 1));
 }
-Footer
-© 2022 GitHub, Inc.
