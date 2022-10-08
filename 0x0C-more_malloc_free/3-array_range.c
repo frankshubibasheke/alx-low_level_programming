@@ -21,5 +21,3 @@ int *array_range(int min, int max)
 		arr[i++] = t++;
 	return (arr);
 }
-Footer
-© 2022 GitHub, Inc.
