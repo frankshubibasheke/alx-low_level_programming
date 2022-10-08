@@ -44,5 +44,4 @@ char *str_concat(char *s1, char *s2)
 
 	return (concat);
 }
-Footer
-© 2022 GitHub, Inc.
+

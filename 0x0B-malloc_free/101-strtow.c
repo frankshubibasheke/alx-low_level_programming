@@ -65,5 +65,3 @@ char **strtow(char *str)
 	aout[i] = NULL;
 	return (aout);
 }
-Footer
-© 2022 GitHub, Inc.

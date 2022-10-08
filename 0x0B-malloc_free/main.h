@@ -9,5 +9,3 @@ void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
 
 #endif
-Footer
-© 2022 GitHub, Inc.
