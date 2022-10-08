@@ -43,5 +43,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (p);
 }
-Footer
-© 2022 GitHub, Inc.
