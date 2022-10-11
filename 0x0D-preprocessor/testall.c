@@ -23,5 +23,3 @@ int main(void)
 	printf("the compiled file is - %s\n", __FILE__);
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
