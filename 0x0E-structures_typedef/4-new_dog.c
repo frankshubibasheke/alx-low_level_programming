@@ -46,5 +46,3 @@ dog_t *new_dog(char *name, float age, char *owner)
 		doge->owner[k] = owner[k];
 	return (doge);
 }
-Footer
-© 2022 GitHub, Inc.
