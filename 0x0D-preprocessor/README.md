@@ -1,2 +1,1 @@
-This project introduces us to the concept of macros in c programming language enabling us to use macros in our source files.
-Goal is to understand the compilation process of c file from the source file to preprocessor, then to the compiler, and then to the assembler before the last stage which is the linker.
+This project introduces us to the concept of macros in c programming language enabling us to use macros in our source files.The goal is to understand the compilation process of c file from the source file to preprocessor, then to the compiler, and then to the assembler before the last stage which is the linker.
